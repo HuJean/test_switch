@@ -1,0 +1,121 @@
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 1px solid #efefef;
+  text-align: center;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  border-radius: 100px;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.container{
+  width: 500px;
+  margin: 200px auto;
+  background: url(/app/images/background.png) no-repeat center center;
+}
+.item{
+  width: 50px;
+  height :40px;
+  margin: 0 auto;
+  position: relative;
+}
+.des{
+  width: 120px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+#it_0{
+  right: 25px;
+  top: 10px;
+}
+#des_0{
+  right: 10px;
+  bottom: 115px;
+}
+#it_1{
+  right: 125px;
+  top: 95px;
+}
+#des_1{
+  right: 120px;
+  bottom: 60px;
+}
+#it_2{
+  left: 60px;
+  top: 50px;
+}
+#des_2{
+  left: 100px;
+  bottom: 60px;
+}
+#it_3{
+  right: 185px;
+  top: 120px;
+}
+#des_3{
+  right: 20px;
+  bottom: 0px;
+}
+#it_4{
+  right: 80px;
+  top: 80px;
+}
+#des_4{
+  right: 10px;
+  top: 0;
+}
+#it_5{
+  left: 35px;
+  top: 40px;
+}
+#des_5{
+  right: 10px;
+  top: 0;
+}
+#it_6{
+  left: 140px;
+  bottom: 0;
+}
+#des_6{
+  left: 0;
+  bottom: 0;
+}
+.btnContainer{
+  width: 200px;
+  height :40px;
+  margin: 20px auto;
+  position: relative;
+  top: 130px;
+  left: 10px;
+  button{
+    margin-left: 20px;
+  }
+}
+.introContainer{
+  float: left;
+  width: 300px;
+  margin: 10px 30px;
+  border: solid black 1px;
+  p{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
